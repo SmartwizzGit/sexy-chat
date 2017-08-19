@@ -1,0 +1,77 @@
+.wrapper {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 95vh;
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.users {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 75%;
+  width: 12%;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+.messages {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 75%;
+  width: 75%;
+  margin-top: 2%;
+  margin-left: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.new-messages {
+  border: 1px solid black;
+  border-radius: 5px;
+  flex-basis: 91%;
+  margin-bottom: 2%;
+  display: flex;
+}
+
+.message-input {
+  flex: 6;
+}
+
+.bubble {
+  background-color: #00e673;
+  font-family: helvetica;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  max-width: 50%;
+  word-break: break-all;
+}
+
+.reply {
+  background-color: #9cf;
+  font-family: helvetica;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  max-width: 50%;
+  word-break: break-all;
+  align-self: self-start;
+}
+
+.author {
+  color: #ae92ed;
+}
+
+button {
+  flex: 1;
+  background-color: skyblue;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1em;
+}
